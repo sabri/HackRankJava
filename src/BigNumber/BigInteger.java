@@ -1,4 +1,5 @@
-package Big/* Java Big Integer
+package BigNumber;
+/* Java Big Integer
 
 In this problem you have to add and multiply huge numbers! These numbers are so big that you can't contain them in any ordinary data types like long integer.
 
@@ -14,11 +15,11 @@ Output two lines. The first line should contain a+b, and the second line should 
 */
 import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class BigInteger {
+
+    public BigInteger(String numOne) {
+    }
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
@@ -27,7 +28,8 @@ public class BigInteger {
         String numTwo = sc.nextLine();
         BigInteger bigNumOne = new BigInteger(numOne);
         BigInteger bigNumTwo = new BigInteger(numTwo);
-        System.out.println(bigNumOne.add(bigNumTwo));
-        System.out.println(bigNumOne.multiply(bigNumTwo));
+       // System.out.println(bigNumOne.add(bigNumTwo));
+      //  System.out.println(bigNumOne.multiply(bigNumTwo));
     }
+
 }

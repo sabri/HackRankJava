@@ -17,5 +17,5 @@ Sample Output
 An instance of class: Solution.Inner.Private has been created
 */
 
-o = new Inner().new Private();
-System.out.println(""+num+" is "+((Inner.Private)o).powerof2(num));
+//o = new Inner().new Private();
+//System.out.println(""+num+" is "+((Inner.Private)o).powerof2(num));

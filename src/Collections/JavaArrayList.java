@@ -1,4 +1,5 @@
-package Collections;/* Java Arraylist
+package Collections;
+/* Java Arraylist
 
 Sometimes it's better to use dynamic size arrays. Java's Arraylist can provide you this feature. 
 Try to solve this problem using Arraylist.
@@ -57,7 +58,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class JavaArrayList {
 
     public static void main(String[] args) {
 

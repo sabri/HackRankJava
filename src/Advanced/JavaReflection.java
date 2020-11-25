@@ -41,19 +41,26 @@ There is no sample input/output for this problem. If you press "Run Code", it wi
 
 */
 
+import Collections.Student;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+
 public class JavaReflection {
 
     public static void main(String[] args){
-        Class student = new Student().getClass();
-        Method[] methods = student.getDeclaredMethods();
+      /*  Class student = new Student();
+      //  Method[] methods = student.getDeclaredMethods();
         
         ArrayList<String> methodList = new ArrayList<>();
         for(Method method:methods){
             methodList.add(method.getName());
         }
-        Collections.sort(methodList);
+        //Collections.sort(methodList);
         for(String name: methodList){
             System.out.println(name);
         }
     }
-}
+    */
+
+}}

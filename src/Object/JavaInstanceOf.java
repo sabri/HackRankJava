@@ -1,4 +1,5 @@
-package Object/* Java Instanceof keyword
+package Object;
+/* Java Instanceof keyword
 
 The Java instanceof operator is used to test if the object or instance is an instanceof the specified type.
 
@@ -28,7 +29,7 @@ import java.util.*;
 
 
 class Student{}
-class Rockstar{   }
+class Rockstar{ }
 class Hacker{}
 
 
