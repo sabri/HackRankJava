@@ -12,7 +12,7 @@ import java.util.regex.PatternSyntaxException;
 public class JavaStringRegex {
     Scanner in = new Scanner(System.in);
     int testCases = Integer.parseInt(in.nextLine());
-      while( testCases>0){
+      while( testCases >0){
         testCases--;
         String pattern = in.nextLine();
         //Write your code

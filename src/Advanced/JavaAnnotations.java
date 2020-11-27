@@ -144,11 +144,11 @@ import java.util.*;
 @Retention(RetentionPolicy.RUNTIME)
 @interface FamilyBudget {
    String userRole() default "GUEST";
+   @FamilyBudget(userRole = "SENIOR", budgetLimit = 100)
    int budgetLimit() default 0;
 }
 
 class FamilyMember {
-   @FamilyBudget(userRole = "SENIOR", budgetLimit = 100)
    public void seniorMember(int budget, int moneySpend) {
       System.out.println("Senior Member");
       System.out.println("Spend: " + moneySpend);

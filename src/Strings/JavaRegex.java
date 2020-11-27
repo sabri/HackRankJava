@@ -26,7 +26,7 @@ Just write the myRegex class, and we will append your code after the following p
 */
 
 
-class myRegex
+class MyRegex
 {
     String pattern = "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$";
             
