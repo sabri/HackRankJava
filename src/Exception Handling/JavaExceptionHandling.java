@@ -1,4 +1,4 @@
-package Exception/* Java Exception Handling
+package Exception;/* Java Exception Handling
 Create a class myCalculator which consists of a single method power(int,int). This method takes two integers, 
 n and p, as parameters and finds np. If either n or p is negative, then the method must throw an exception 
 which says "n and p should be non-negative".

@@ -23,7 +23,7 @@ Sample Output 2
 The factory returned class Pizza
 Someone ordered Fast Food!
 
-*/
+
 
 if(order.equals("cake")){
  
@@ -31,3 +31,4 @@ if(order.equals("cake")){
 }else{
     return new Pizza();
 }
+*/
